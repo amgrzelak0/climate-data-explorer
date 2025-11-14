@@ -1,0 +1,26 @@
+name: climate
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipywidgets
+  - xarray
+  - netcdf4
+  - cftime
+  - cartopy
+  - geopandas
+  - rioxarray
+  - rasterio
+  - dask
+  - scikit-learn
+  - statsmodels
+  - plotly
+  - pip:
+      - jupyterlab-git
+      - jupyterlab-spellchecker
